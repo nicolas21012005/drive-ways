@@ -304,7 +304,7 @@ main {
 }
 
 .about-right.second {
-    background: url('/img/Elon-Musk-admits-Teslas-existing-self-driving-cars-may-never-actually-drive-by-themselves-2024-10-3748ef9ab9c98889dea3b100bc23a2c4-1200x675.png');
+    background: url('../img/elondriver.png');
     background-size: cover;
     position: relative;
     width: 45%;
@@ -957,6 +957,17 @@ footer hr {
         margin-right: 50px;
         margin-top: 80px;
     }
+
+    #about .about-right.second {
+        width: 90%;
+        background: url(../img/elondriver.png);
+        background-size: cover;
+        position: relative;
+        height: 45vh;
+        margin-right: 50px;
+        margin-top: 80px;
+    }
+
 
     #about .about-right button {
         position: absolute;
@@ -2851,6 +2862,18 @@ footer hr {
     #about .about-right {
         width: 100%;
         background: url(../img/young-businessman.png);
+        background-size: 100%;
+        position: relative;
+        height: 30vh;
+        margin-right: 10px;
+        margin-top: 80px;
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+
+    #about .about-right.second {
+        width: 100%;
+        background: url(../img/elondriver.png);
         background-size: 100%;
         position: relative;
         height: 30vh;
