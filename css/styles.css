@@ -303,6 +303,13 @@ main {
     position: relative;
 }
 
+.about-right.second {
+    background: url('/img/Elon-Musk-admits-Teslas-existing-self-driving-cars-may-never-actually-drive-by-themselves-2024-10-3748ef9ab9c98889dea3b100bc23a2c4-1200x675.png');
+    background-size: cover;
+    position: relative;
+    width: 45%;
+}
+
 .about-right button {
     position: absolute;
     width: 68px;
