@@ -281,6 +281,7 @@ main {
 #about .about-left {
     width: 55%;
     padding-right: 70px;
+    margin-bottom: 20px;
 }
 
 .about-left h3 {
@@ -373,6 +374,7 @@ main {
     background: url('../img/young-businessman.png');
     background-size: cover;
     position: relative;
+    margin-bottom: 20px;
 }
 
 .about-right button {
