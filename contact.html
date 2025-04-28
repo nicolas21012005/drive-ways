@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRIVEWAYS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" id="logo"> <img src="img/logo.png" alt="Logo Website"></a>
+            <button class="menu-toggle" id="menu-toggle"><i class="fa-solid fa-bars"></i></button>
+            <ul id="nav-menu">
+                <li>
+                    <a href="index.html">HOME</a>
+                    <ul>
+                        <li><a href="#">HOME 1</a></li>
+                        <li><a href="#">HOME 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="about-us.html">ABOUT US</a></li>
+                <li><a href="car-list.html">VEHICLES</a></li>
+                <li><a href="features.html">FEATURES</a></li>
+            </ul>
+            <a class='nothing' href="contact.html">CONTACT US</a>
+        </nav>
+    </header>
+    <main>
+        <section id="contact">
+            <h2>HERE IS OUR LOCATION, WE ARE WATING FOR YOU</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d799943.2340387822!2d-76.58840214091911!3d6.176161600000008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e469dd89932cbb9%3A0x4a4d22cd93c3d4d3!2sBudget%20Rent%20a%20Car%20Rionegro!5e1!3m2!1sen!2sco!4v1745876447376!5m2!1sen!2sco"
+                style="border-radius: 10%; border:7px solid gray;" allowfullscreen=""
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form class="rental-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" placeholder="Tu nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" placeholder="correo@ejemplo.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" placeholder="123 456 7890" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="vehiculo">Vehículo a rentar</label>
+                    <select id="vehiculo" required>
+                        <option value="">Selecciona un vehículo</option>
+                        <option value="bmw">BMW M8 Competition</option>
+                        <option value="lamborghini">Lamborghini Aventador SVJ</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="fecha">Fecha de renta</label>
+                    <input type="date" id="fecha" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="comentarios">Comentarios adicionales</label>
+                    <textarea id="comentarios" rows="4" placeholder="Opcional..."></textarea>
+                </div>
+
+                <button type="submit">Enviar solicitud</button>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <div class="fila">
+            <div class="col-footer">
+                <a href=""><img src="img/Logo-w.png" alt=""></a>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia qui consectetur, officiis error
+                    fuga numquam.</p>
+                <ul>
+                    <a target="_blank" href="https://www.facebook.com">FB </a>
+                    <p>-</p>
+                    <a target="_blank" href="https://www.youtube.com">YT </a>
+                    <p>-</p>
+                    <a target="_blank" href="https://www.instagram.com">IG </a>
+                    <p>-</p>
+                    <a target="_blank" href="https://www.x.com">TW </a>
+                    <p>-</p>
+                    <a target="_blank" href="https://www.linkedin.com">LK </a>
+                </ul>
+            </div>
+            <div class="col-footer">
+                <h3><i class="fa-solid fa-clock"></i> HOURS</h3>
+
+                <p>Mon - Fri : 09:00 AM - 09:00 PM</p>
+                <p>Sat : 09:00 AM - 07:00 PM</p>
+                <p>Sun : Closed</p>
+            </div>
+            <div class="col-footer">
+                <h3><i class="fa-solid fa-clock"></i> QUICK CONTACT</h3>
+
+                <p>Office : 42 Marine Parade, Australia</p>
+                <p>Mail : info@8pxlstudio.com</p>
+                <p>Phone : +012356789</p>
+            </div>
+        </div>
+        <hr>
+        <div class="second-row">
+            <p>Copyright © 2025 Driveways. All Rights Reserved</p>
+            <p>Privacy Policy | Terms of Service</p>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js">
+    </script>
+    <script>
+        AOS.init();
+    </script>
+</body>
