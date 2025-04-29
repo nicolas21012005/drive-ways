@@ -1605,6 +1605,7 @@ header li a {
     color: #bebebe;
     transition: .3s;
     font-weight: 450;
+    color: black;
 }
 
 header nav a:hover {
@@ -2585,13 +2586,15 @@ footer hr {
     header nav ul {
         display: none;
         flex-direction: column;
-        background-color: #33333300;
         padding: 10px;
-        width: 100%;
         position: absolute;
         top: 75px;
-        width: 90%;
+        width: 20%;
+        background-color: rgba(128, 128, 128, 0.473);
         transition: 1.5s;
+        z-index: 5;
+        margin-left: 70%;
+        margin-top: 18px;
     }
 
     header nav ul.show {
@@ -2794,12 +2797,15 @@ footer hr {
     header nav ul {
         display: none;
         flex-direction: column;
-        background-color: #33333300;
         padding: 10px;
-        width: 100%;
         position: absolute;
         top: 75px;
-        width: 90%;
+        width: 20%;
+        background-color: rgba(128, 128, 128, 0.473);
+        transition: 1.5s;
+        z-index: 5;
+        margin-left: 70%;
+        margin-top: 18px;
     }
 
     header nav ul.show {
